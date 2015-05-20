@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div style="border:solid #000000 1px; width:300px;margin: auto  auto;margin-top:100px;background-color: #868686;border-radius:30px">
+
+    <h1  style="font-size: 50px;margin-left:240px"> <a style="text-decoration:none" href="{{ path('Ajouter') }}" >+</a>
+    </h1>
+    <h1 style="text-align:center;color: #FFFFFF;">Liste Tâches 2015</h1>
+    <table border="0" style="border-collapse: collapse;margin-left: 33%">
+        <tr><td>A faire:</td></tr>
+        {% for p in Tache %}
+        <tr  >
+            <td>
+           <ul>
+           <li ><a href="{{ path('consulter', { 'id': p.id }) }}">{{ p.titre }}</a></li>
+
+           </ul>
+</td></tr>
+
+        {% endfor %}
+    </table>
+    <table>
+<tr><td>Elomari Alaoui Fatima Zohra Copyright....</td></tr>
+    </table>
+
+    </div>
+{% endblock %}

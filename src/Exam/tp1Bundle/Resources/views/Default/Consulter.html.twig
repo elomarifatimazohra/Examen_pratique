@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div style="border:solid #000000; width:300px;margin: auto  auto;margin-top:100px;background-color: #868686;border-radius:30px">
+
+    <h1 style="font-size: 50px;margin-left:240px"> <a style="text-decoration: none" href="{{ path('Ajouter') }}">+</a>
+    </h1>
+    <h1 style="color:white;text-align: center; text-decoration: underline">Liste des  Taches 2015</h1>
+    <table border="0" style="border-collapse: collapse;margin-left: 33%">
+        <tr><td></td></tr>
+
+<tr style="text-align:center; padding-left:10px">
+<p style=" padding-left:10px">
+            {{ Tache.titre }} : <br><br>
+
+
+
+        {{ Tache.description }} <br><br>
+        a faire Avant le :
+        {{ Tache.date|date('Y-m-d H:i:s')  }}<br><br><br>
+
+    </p>
+        </td>
+        </tr>
+
+
+
+
+
+
+
+
+    </table>
+        <table>
+            <tr><td>Elomari Alaoui Fatima Zohra Copyright....</td></tr>
+        </table>
+    </div>
+{% endblock %}

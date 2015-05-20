@@ -1,0 +1,5 @@
+tache:
+    resource: "@tacheBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
