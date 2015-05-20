@@ -30,7 +30,7 @@ class __TwigTemplate_af9a3744da75fc27a86a4ca9ee1830015c06241694168b7e90345a5ba82
         // line 3
         echo "    <div style=\"border:solid #000000; width:300px;margin: auto  auto;margin-top:100px;background-color: #5eb5e0;border-radius:30px\">
 
-    <h1 style=\"font-size: 50px;margin-left:240px\"> <a style=\"text-decoration: none\" href=\"";
+        <h1  style=\"font-size: 50px;\">Todo.com <a style=\"text-decoration: none\" href=\"";
         // line 5
         echo $this->env->getExtension('routing')->getPath("Ajouter");
         echo "\">+</a>

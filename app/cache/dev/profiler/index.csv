@@ -498,3 +498,8 @@ e0fbf0,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/Ajouter/,14321
 ec426b,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/Ajouter/afficher,1432154328,
 9f4df9,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/afficher,1432154339,
 4318e7,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/afficher/,1432154342,
+2830c0,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/afficher/,1432154510,
+647b78,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/afficher/,1432154540,
+4b460a,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/consulter/2,1432154562,
+620a23,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/consulter/2,1432154606,
+950bc7,127.0.0.1,GET,http://localhost/Examen_todo/web/app_dev.php/Ajouter/,1432154817,
